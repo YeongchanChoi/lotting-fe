@@ -1,13 +1,49 @@
-body {
+@media screen and (max-width: 720px) {
+  body{
+      background-color: rgb(255, 255, 255);
+  }
+}
+body{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+main{
+  padding-left: 280px;
+}
+
+input[type='date']::before {
+  content: attr(data-placeholder);
+  width: 100%;
+}
+
+button{ 
+  background: inherit ; border:none; box-shadow:none; border-radius:0; padding:0; overflow:visible; cursor:pointer
+}
+
+ul, li{
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+input[type="file"] {
+  position: absolute;
+  width: 0;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+}
+
+input[type="button"]{
+  background: inherit; 
+  box-shadow:none; 
+  cursor:pointer;
+}
+
+
+a {
+  text-decoration: none;
+  color: #000;
 }
