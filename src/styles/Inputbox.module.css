@@ -1,0 +1,75 @@
+/* src/styles/Inputbox.module.css */
+
+.inputcontainer {
+    display: flex;
+    width: 25vw;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(162, 161, 168, 0.20);
+    padding: 10px 20px 10px 16px;
+    float: left;
+    margin-right: 10px;
+  }
+  
+  .inputareacontainer {
+    width: 70vw;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid rgba(162, 161, 168, 0.20);
+    padding: 10px 16px;
+  }
+  
+  .dateinputcontainer {
+    display: flex;
+    width: 25vw;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(162, 161, 168, 0.20);
+    padding: 10px 16px;
+    float: left;
+    margin-right: 10px;
+  }
+  
+  .spancontainer {
+    border-radius: 10px;
+    border: 1px solid rgba(162, 161, 168, 0.20);
+    display: flex;
+    height: 30px;
+    width: 1fr;
+    padding: 10px 20px 10px 16px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 13px;
+  }
+  
+  .checkboxContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox {
+    margin-right: 8px;
+  }
+  
+  .checkboxLabel {
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .fileinputcontainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .fileinputlabel {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    color: #7152F3;
+  }
+  
+  .fileinput {
+    display: none;
+  }
+  

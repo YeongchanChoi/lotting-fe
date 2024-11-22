@@ -1,0 +1,77 @@
+/* src/styles/Button.module.css */
+
+.buttonstyle {
+    width: 108%;
+    background-color: #7152F3;
+    border: 0;
+    border-radius: 10px;
+    height: 56px;
+    margin-top: 3%;
+    color: #fff;
+  }
+  
+  .downloadbuttonstyle {
+    width: 100px;
+    background-color: #7152F3;
+    border: 0;
+    border-radius: 10px;
+    height: 43px;
+    margin-top: 3%;
+    color: #fff;
+  }
+  
+  .downloadbuttonstyle span {
+    font-weight: 500;
+    font-size: 15px;
+    margin-right: 10px;
+  }
+  
+  .searchbuttonstyle {
+    display: inline-flex;
+    width: 133px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    margin-top: 20px;
+    background: #7152F3;
+  }
+  
+  .modifybutton {
+    display: flex;
+    width: 55px;
+    height: 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: #7152F3;
+    margin-right: 10px;
+  }
+  
+  .checkbutton {
+    display: flex;
+    width: 70px;
+    height: 36px;
+    border-radius: 5px;
+    background: #7152F3;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .CgButton {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .BottonFont {
+    color: #fff;
+    font-family: Lexend;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+  

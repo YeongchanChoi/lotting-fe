@@ -1,38 +1,133 @@
-.App {
-  text-align: center;
+/* App.css */
+
+/* 박스 사이징을 모든 요소에 적용하여 패딩과 보더를 포함한 크기 계산 */
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* 기본 스타일 초기화 */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff; /* 기본 배경색 설정 (필요에 따라 변경) */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+/* 앱 전체 컨테이너 설정 */
+.app-container {
+  display: flex;
   min-height: 100vh;
+  width: 100%;
+}
+
+/* Nav 스타일 */
+nav {
+  width: 280px;
+  background-color: #ffffff;
+  padding: 20px;
+  box-sizing: border-box;
+  /* 스크롤 가능하게 설정 (내용이 많을 경우) */
+  overflow-y: auto;
+}
+
+/* main-area 스타일: Header와 main 콘텐츠를 포함 */
+.main-area {
   display: flex;
   flex-direction: column;
+  flex: 1;
+}
+
+/* Header 스타일 */
+header {
+  height: 60px; /* 예시 높이 */
+  background-color: #333;
+  color: #fff;
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 0 20px;
+  /* 고정 위치가 아닌 main-area 내에서 상단에 배치 */
 }
 
-.App-link {
-  color: #61dafb;
+/* main 콘텐츠 스타일 */
+main {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff; /* 메인 콘텐츠 배경색 */
+  overflow-y: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* 반응형 디자인: 화면 폭이 720px 이하일 때 */
+@media screen and (max-width: 720px) {
+  .app-container {
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+
+  nav {
+    width: 100%;
+    padding: 10px;
   }
+
+  .main-area {
+    flex: none;
+  }
+
+  header {
+    height: 50px; /* 모바일에 맞게 높이 조정 */
+    padding: 0 10px;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+/* 날짜 입력 필드에 placeholder 표시 */
+input[type='date']::before {
+  content: attr(data-placeholder);
+  width: 100%;
+}
+
+/* 버튼 기본 스타일 초기화 및 커서 설정 */
+button {
+  background: inherit;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+  overflow: visible;
+  cursor: pointer;
+}
+
+/* 리스트 스타일 초기화 */
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* 파일 입력 필드 숨기기 */
+input[type='file'] {
+  position: absolute;
+  width: 0;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+}
+
+/* 버튼 타입 입력 필드 스타일 초기화 */
+input[type='button'] {
+  background: inherit;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+/* 앵커 태그 기본 스타일 초기화 */
+a {
+  text-decoration: none;
+  color: #000;
 }

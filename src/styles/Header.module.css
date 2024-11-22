@@ -1,0 +1,128 @@
+/* src/styles/Header.module.css */
+
+.maincontainer {
+    width: 100vw;
+    height: 100px;
+  }
+  
+  .container {
+    float: left;
+    margin-top: 25px;
+  }
+  
+  .title {
+    color: #16151C;
+    font-size: 20px;
+  }
+  
+  .subtitle {
+    color: #A2A1A8;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  
+  .rightcontainer {
+    width: 300px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .usercontainer {
+    float: left;
+    width: 170px;
+    height: 60px;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid rgba(162, 161, 168, 0.20);
+    padding-left: 10px;
+    display: flex;
+  }
+  
+  .image {
+    border-radius: 10px;
+    margin: 5px;
+  }
+  
+  .image img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .loginbody {
+    padding-top: 8px;
+    width: 150px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Name {
+    padding-left: 5px;
+    width: 184px;
+    height: 20px;
+  }
+  
+  .name {
+    margin-top: 7px;
+    margin-bottom: 0;
+    color: #16151C;
+    font-size: 16px;
+  }
+  
+  .loginfo {
+    width: 184px;
+    height: 20px;
+    display: flex;
+  }
+  
+  .role {
+    margin: 5px;
+    color: #A2A1A8;
+    font-size: 12px;
+  }
+  
+  .logoutbutton {
+    display: flex;
+    margin-left: 10px;
+    width: 60px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(162, 161, 168, 0.20);
+    margin-right: 10px;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .button {
+    display: flex;
+    width: 65px;
+    height: 34px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: #ffffff;
+    border: 1px solid rgba(162, 161, 168, 0.20);
+    margin-right: 10px;
+    margin-top: 8px;
+  }
+  
+  .loginButton {
+    background: none;
+    border: none;
+    color: #000;
+    font-family: Lexend;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 24px;
+    cursor: pointer;
+  }
+  
