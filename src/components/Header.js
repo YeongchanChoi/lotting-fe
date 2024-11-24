@@ -1,9 +1,9 @@
 // src/components/Header.js
 
-import React, { useState } from 'react';
-import styles from '../styles/Header.module.css';
-import { useNavigate } from 'react-router-dom';
-import profileImage from '../img/profile.png';
+import React, { useState } from "react";
+import styles from "../styles/Header.module.css";
+import { useNavigate } from "react-router-dom";
+import profileImage from "../img/profile.png";
 
 const Header = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(true); // 실제 로그인 상태로 변경
@@ -12,18 +12,18 @@ const Header = () => {
   const handleLogout = () => {
     // 로그아웃 로직 추가
     setIsLoggedIn(false);
-    navigate('/login'); // 로그아웃 후 로그인 페이지로 이동
+    navigate("/login"); // 로그아웃 후 로그인 페이지로 이동
   };
 
   const handleLogin = () => {
-    navigate('/login'); // 로그인 페이지로 이동
+    navigate("/login"); // 로그인 페이지로 이동
   };
 
   return (
     <div className={styles.maincontainer}>
       <div className={styles.container}>
-        <h1 className={styles.title}>페이지 타이틀</h1>
-        <p className={styles.subtitle}>페이지 설명</p>
+        <h1 className={styles.title}>회원관리시스템이 정상 작동중입니다 👋🏻</h1>
+        <p className={styles.subtitle}>덕소 리버 베르데포레 [개발중]</p>
       </div>
       <div className={styles.rightcontainer}>
         {isLoggedIn ? (

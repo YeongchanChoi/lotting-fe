@@ -2,422 +2,421 @@
 
 /* 전체 컨테이너 */
 .Container {
-    width: 1079px;
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  /* 메인 타이틀 */
-  .MainTitle {
-    width: 1079px;
-    display: flex;
-    margin-bottom: 20px;
-  }
-  
-  /* 계약 정보 섹션 */
-  .ContractBody {
-    width: 645px;
-    margin-right: 20px;
-  }
-  
-  .Contract {
-    width: 646px;
-    display: flex;
-    margin-bottom: 20px;
-  }
-  
-  .ContractSum {
-    width: 313px;
-    border-radius: 10px;
-    border: 1px solid rgba(162, 161, 168, 0.20);
-    margin-right: 20px;
-  }
-  
-  .ContractValue {
-    display: flex;
-    padding: 16px;
-  }
-  
-  .ContractIcons {
-    display: flex;
-    width: 45px;
-    height: 45px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-    background: rgba(162, 161, 168, 0.05);
-    margin-right: 12px;
-  }
-  
-  .ContractImg {
-    width: 24px;
-    height: 24px;
-  }
-  
-  .ContractName {
-    color: #16151C;
-    font-family: Lexend;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 22px;
-    margin-top: 12px;
-  }
-  
-  .ContractValue2 {
-    display: flex;
-    padding: 0 16px;
-  }
-  
-  .ContractVal1,
-  .ContractVal {
-    flex: 1;
-  }
-  
-  .Value {
-    color: #16151C;
-    font-family: Lexend;
-    font-size: 30px;
-    font-weight: 600;
-    line-height: 40px;
-  }
-  
-  .ContractVal2 {
-    display: flex;
-    align-items: center;
-  }
-  
-  .Percentage_G {
-    display: flex;
-    align-items: center;
-    padding: 5px;
-    border-radius: 5px;
-    background: rgba(48, 190, 130, 0.10);
-  }
-  
-  .UpImg {
-    width: 12px;
-    height: 12px;
-    margin-right: 5px;
-  }
-  
-  .UpText {
-    color: #30BE82;
-    font-family: Lexend;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 24px;
-  }
-  
-  .Bottominfo {
-    padding: 0 16px 16px;
-    border-top: 1px solid rgba(162, 161, 168, 0.20);
-  }
-  
-  .BottomDate {
-    color: #A2A1A8;
-    font-family: Lexend;
-    font-size: 12px;
-    font-weight: 300;
-    line-height: 18px;
-  }
-  
-  /* 미납자 명단 */
-  .Client {
-    width: 646px;
-  }
-  
-  .ClientBody {
-    border-radius: 10px;
-    border: 1px solid rgba(162, 161, 168, 0.20);
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .ClientContents {
-    padding: 16px;
-  }
-  
-  .ClientTitle {
-    display: flex;
-    margin-bottom: 20px;
-  }
-  
-  .ClientTitle1 {
-    flex: 1;
-  }
-  
-  .Titlefont {
-    color: #16151C;
-    font-family: Lexend;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 30px;
-  }
-  
-  .ClientTitle2 {
-    display: flex;
-    align-items: center;
-  }
-  
-  .InfoBotton {
-    width: 72px;
-    height: 40px;
-    border-radius: 10px;
-    border: 1px solid rgba(162, 161, 168, 0.20);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .Bottonfont {
-    color: #16151C;
-    font-family: Lexend;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 22px;
-  }
-  
-  .ClientCategory,
-  .ClientValue {
-    display: flex;
-    border-bottom: 1px solid rgba(162, 161, 168, 0.10);
-    padding: 10px 0;
-  }
-  
-  .Number {
-    width: 132px;
-  }
-  
-  .Name {
-    width: 142px;
-  }
-  
-  .Cha {
-    width: 142px;
-  }
-  
-  .Dong {
-    width: 102px;
-  }
-  
-  .Categoryfont {
-    color: #A2A1A8;
-    font-family: Lexend;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-  }
-  
-  .Valuefont {
-    color: #16151C;
-    font-family: Lexend;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-  }
-  
-  /* 일정관리 */
-  .Date {
-    width: 414px;
-    border-radius: 10px;
-    border: 1px solid rgba(162, 161, 168, 0.20);
-  }
-  
-  .DateTitle {
-    display: flex;
-    padding: 20px;
-  }
-  
-  .DateTitle1 {
-    flex: 1;
-  }
-  
-  .DateTitleName {
-    color: #16151C;
-    font-family: Lexend;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 30px;
-  }
-  
-  .DateTitle2 {
-    display: flex;
-    align-items: center;
-  }
-  
-  .DateIcon {
-    width: 50px;
-    height: 50px;
-    border-radius: 10px;
-    background: rgba(113, 82, 243, 0.10);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .CalendarImg {
-    width: 30px;
-    height: 30px;
-  }
-  
-  .Line {
-    width: 100%;
-    height: 1px;
-    background: rgba(162, 161, 168, 0.10);
-  }
-  
-  .Today {
-    padding: 20px;
-  }
-  
-  .TodayTitle {
-    display: flex;
-    margin-bottom: 10px;
-  }
-  
-  .TodayTitle1 {
-    flex: 1;
-  }
-  
-  .TodayTitleName {
-    color: #16151C;
-    font-family: Lexend;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-  }
-  
-  /* 공지사항 */
-  .Notice {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    width: 1080px;
-    border-radius: 10px;
-    border: 1px solid rgba(162, 161, 168, 0.20);
-    padding: 20px;
-  }
-  
-  .NoticeTitle {
-    display: flex;
-  }
-  
-  .NoticeTitle1 {
-    flex: 1;
-  }
-  
-  .NoticeName {
-    color: #16151C;
-    font-family: Lexend;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 30px;
-  }
-  
-  .NoticeTitle2 {
-    display: flex;
-    align-items: center;
-  }
-  
-  .NoticeBotton {
-    width: 70px;
-    height: 40px;
-    border-radius: 10px;
-    border: 1px solid rgba(162, 161, 168, 0.20);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .NoticeBottonFont {
-    color: #16151C;
-    font-family: Lexend;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 22px;
-  }
-  
-  .NoticeCategory,
-  .NoticeContent {
-    display: flex;
-  }
-  
-  .NoticeCategory1,
-  .NoticeCategory2,
-  .NoticeCategory3,
-  .NoticeCategory4,
-  .NoticeCategory5 {
-    padding: 10px;
-  }
-  
-  .NoticeCategory1 {
-    width: 327px;
-  }
-  
-  .NoticeCategory2 {
-    width: 257px;
-  }
-  
-  .NoticeCategory3 {
-    width: 161px;
-  }
-  
-  .NoticeCategory4 {
-    width: 191px;
-  }
-  
-  .NoticeCategory5 {
-    width: 100px;
-  }
-  
-  .NoticeCategoryFont {
-    color: #A2A1A8;
-    font-family: Lexend;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 24px;
-  }
-  
-  .ContentFont {
-    color: #16151C;
-    font-family: Lexend;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 24px;
-  }
-  
-  .ContentState_G,
-  .ContentState_B {
-    display: flex;
-    width: 66px;
-    height: 24px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 4px;
-  }
-  
-  .ContentState_G {
-    background: rgba(63, 194, 138, 0.10);
-  }
-  
-  .ContentState_B {
-    background: rgba(244, 91, 105, 0.10);
-  }
-  
-  .G_Font {
-    color: #3FC28A;
-    font-family: Lexend;
-    font-size: 12px;
-    font-weight: 300;
-    line-height: 18px;
-  }
-  
-  .B_Font {
-    color: #F45B69;
-    font-family: Lexend;
-    font-size: 12px;
-    font-weight: 300;
-    line-height: 18px;
-  }
-  
+  width: 1079px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 메인 타이틀 */
+.MainTitle {
+  width: 1079px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+/* 계약 정보 섹션 */
+.ContractBody {
+  width: 645px;
+  margin-right: 20px;
+}
+
+.Contract {
+  width: 646px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.ContractSum {
+  width: 313px;
+  border-radius: 10px;
+  border: 1px solid rgba(162, 161, 168, 0.2);
+  margin-right: 20px;
+}
+
+.ContractValue {
+  display: flex;
+  padding: 16px;
+}
+
+.ContractIcons {
+  display: flex;
+  width: 45px;
+  height: 45px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: rgba(162, 161, 168, 0.05);
+  margin-right: 12px;
+}
+
+.ContractImg {
+  width: 24px;
+  height: 24px;
+}
+
+.ContractName {
+  color: #16151c;
+  font-family: Lexend;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  margin-top: 12px;
+}
+
+.ContractValue2 {
+  display: flex;
+  padding: 0 16px;
+}
+
+.ContractVal1,
+.ContractVal {
+  flex: 1;
+}
+
+.Value {
+  color: #16151c;
+  font-family: Lexend;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.ContractVal2 {
+  display: flex;
+  align-items: center;
+}
+
+.Percentage_G {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+  background: rgba(48, 190, 130, 0.1);
+}
+
+.UpImg {
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+}
+
+.UpText {
+  color: #30be82;
+  font-family: Lexend;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.Bottominfo {
+  padding: 0 16px 16px;
+  border-top: 1px solid rgba(162, 161, 168, 0.2);
+}
+
+.BottomDate {
+  color: #a2a1a8;
+  font-family: Lexend;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+}
+
+/* 미납자 명단 */
+.Client {
+  width: 646px;
+}
+
+.ClientBody {
+  border-radius: 10px;
+  border: 1px solid rgba(162, 161, 168, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.ClientContents {
+  padding: 16px;
+}
+
+.ClientTitle {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.ClientTitle1 {
+  flex: 1;
+}
+
+.Titlefont {
+  color: #16151c;
+  font-family: Lexend;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.ClientTitle2 {
+  display: flex;
+  align-items: center;
+}
+
+.InfoBotton {
+  width: 72px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid rgba(162, 161, 168, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Bottonfont {
+  color: #16151c;
+  font-family: Lexend;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+}
+
+.ClientCategory,
+.ClientValue {
+  display: flex;
+  border-bottom: 1px solid rgba(162, 161, 168, 0.1);
+  padding: 10px 0;
+}
+
+.Number {
+  width: 132px;
+}
+
+.Name {
+  width: 142px;
+}
+
+.Cha {
+  width: 142px;
+}
+
+.Dong {
+  width: 102px;
+}
+
+.Categoryfont {
+  color: #a2a1a8;
+  font-family: Lexend;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.Valuefont {
+  color: #16151c;
+  font-family: Lexend;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* 일정관리 */
+.Date {
+  width: 414px;
+  border-radius: 10px;
+  border: 1px solid rgba(162, 161, 168, 0.2);
+}
+
+.DateTitle {
+  display: flex;
+  padding: 20px;
+}
+
+.DateTitle1 {
+  flex: 1;
+}
+
+.DateTitleName {
+  color: #16151c;
+  font-family: Lexend;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.DateTitle2 {
+  display: flex;
+  align-items: center;
+}
+
+.DateIcon {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  background: rgba(113, 82, 243, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.CalendarImg {
+  width: 30px;
+  height: 30px;
+}
+
+.Line {
+  width: 100%;
+  height: 1px;
+  background: rgba(162, 161, 168, 0.1);
+}
+
+.Today {
+  padding: 20px;
+}
+
+.TodayTitle {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.TodayTitle1 {
+  flex: 1;
+}
+
+.TodayTitleName {
+  color: #16151c;
+  font-family: Lexend;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* 공지사항 */
+.Notice {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 1080px;
+  border-radius: 10px;
+  border: 1px solid rgba(162, 161, 168, 0.2);
+  padding: 20px;
+}
+
+.NoticeTitle {
+  display: flex;
+}
+
+.NoticeTitle1 {
+  flex: 1;
+}
+
+.NoticeName {
+  color: #16151c;
+  font-family: Lexend;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.NoticeTitle2 {
+  display: flex;
+  align-items: center;
+}
+
+.NoticeBotton {
+  width: 70px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid rgba(162, 161, 168, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.NoticeBottonFont {
+  color: #16151c;
+  font-family: Lexend;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+}
+
+.NoticeCategory,
+.NoticeContent {
+  display: flex;
+}
+
+.NoticeCategory1,
+.NoticeCategory2,
+.NoticeCategory3,
+.NoticeCategory4,
+.NoticeCategory5 {
+  padding: 10px;
+}
+
+.NoticeCategory1 {
+  width: 327px;
+}
+
+.NoticeCategory2 {
+  width: 257px;
+}
+
+.NoticeCategory3 {
+  width: 161px;
+}
+
+.NoticeCategory4 {
+  width: 191px;
+}
+
+.NoticeCategory5 {
+  width: 100px;
+}
+
+.NoticeCategoryFont {
+  color: #a2a1a8;
+  font-family: Lexend;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.ContentFont {
+  color: #16151c;
+  font-family: Lexend;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.ContentState_G,
+.ContentState_B {
+  display: flex;
+  width: 66px;
+  height: 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.ContentState_G {
+  background: rgba(63, 194, 138, 0.1);
+}
+
+.ContentState_B {
+  background: rgba(244, 91, 105, 0.1);
+}
+
+.G_Font {
+  color: #3fc28a;
+  font-family: Lexend;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+}
+
+.B_Font {
+  color: #f45b69;
+  font-family: Lexend;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+}

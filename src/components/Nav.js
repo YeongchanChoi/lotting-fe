@@ -1,17 +1,18 @@
 // src/components/Nav.js
 
-import React, { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import { AiFillAppstore, AiOutlineAppstore } from 'react-icons/ai';
-import { HiOutlineUsers, HiUsers } from 'react-icons/hi2';
-import LOGO from '../img/logo.png';
-import styles from '../styles/Nav.module.css';
+import React, { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
+import { AiFillAppstore, AiOutlineAppstore } from "react-icons/ai";
+import { HiOutlineUsers, HiUsers } from "react-icons/hi2";
+import LOGO from "../img/logo.png";
+import styles from "../styles/Nav.module.css";
 
-const iconstyle = { fontSize: '1.5em', paddingRight: '10%', paddingLeft: '7%' };
+const iconstyle = { fontSize: "1.5em", margin: "0 20px 0 14px" };
 
 const Nav = () => {
+  console.log(AiFillAppstore);
   const location = useLocation();
-  const splitpath = location.pathname.split('/');
+  const splitpath = location.pathname.split("/");
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
@@ -21,9 +22,13 @@ const Nav = () => {
       </Link>
       <div className={styles.listContainer}>
         <Link to="/dashboard">
-          <div className={splitpath[1] === 'dashboard' ? styles.select : styles.nonselect}>
+          <div
+            className={
+              splitpath[1] === "dashboard" ? styles.select : styles.nonselect
+            }
+          >
             <div className={styles.innerContainer}>
-              {splitpath[1] === 'dashboard' ? (
+              {splitpath[1] === "dashboard" ? (
                 <AiFillAppstore style={iconstyle} />
               ) : (
                 <AiOutlineAppstore style={iconstyle} />
@@ -33,9 +38,13 @@ const Nav = () => {
           </div>
         </Link>
         <Link to="/client">
-          <div className={splitpath[1] === 'client' ? styles.select : styles.nonselect}>
+          <div
+            className={
+              splitpath[1] === "client" ? styles.select : styles.nonselect
+            }
+          >
             <div className={styles.innerContainer}>
-              {splitpath[1] === 'client' ? (
+              {splitpath[1] === "client" ? (
                 <HiUsers style={iconstyle} />
               ) : (
                 <HiOutlineUsers style={iconstyle} />
